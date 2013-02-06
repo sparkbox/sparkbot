@@ -1,1 +1,2 @@
-["redis-brain.coffee", "tweet.coffee", "shipit.coffee", "abstract.coffee"]
+["redis-brain.coffee", "tweet.coffee", "shipit.coffee", "abstract.coffee",
+  "meme_generator.coffee"]
