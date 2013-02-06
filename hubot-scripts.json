@@ -1,2 +1,3 @@
 ["redis-brain.coffee", "tweet.coffee", "shipit.coffee", "abstract.coffee",
-  "meme_generator.coffee", "google.coffee", "hackernews.coffee"]
+  "meme_generator.coffee", "google.coffee", "hackernews.coffee",
+  "dribbble.coffee"]
