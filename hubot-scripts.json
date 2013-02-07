@@ -1,3 +1,5 @@
 ["redis-brain.coffee", "tweet.coffee", "shipit.coffee", "abstract.coffee",
   "meme_generator.coffee", "google.coffee", "hackernews.coffee",
-  "dribbble.coffee", "spot.coffee"]
+  "dribbble.coffee", "spot.coffee", "applause.coffee", "brewerydb.coffee",
+  "catfacts.coffee", "coin.coffee", "complete.coffee", "facepalm.coffee",
+  "weather.coffee", "wunderground.coffee"]
