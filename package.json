@@ -19,7 +19,9 @@
     "hubot-scripts": "git://github.com/github/hubot-scripts.git",
     "optparse": "1.0.3",
     "nodepie": "0.6.0",
-    "xml2js": "0.2.3"
+    "xml2js": "0.2.3",
+    "htmlparser": "1.7.6",
+    "soupselect": "0.2.0"
   },
 
   "engines": {
