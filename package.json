@@ -22,7 +22,8 @@
     "xml2js": "0.2.3",
     "htmlparser": "1.7.6",
     "soupselect": "0.2.0",
-    "jsdom": "~0.2.13"
+    "jsdom": "~0.2.15",
+    "underscore": "1.4.4"
   },
 
   "engines": {
