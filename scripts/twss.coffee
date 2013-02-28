@@ -30,10 +30,12 @@ module.exports = (robot) ->
       room = msg.envelope.room
       message = msg.match[1]
 
-      if twss.is(message)
+      console.log room, twssRooms
+
+      if room in twssRooms and twss.is(message)
         probability = twss.probability(message)
 
-        if probability < 0.95
+        if probability < 0.98
           msg.send "That's what she said."
         else
           msg.send msg.random [
@@ -41,5 +43,6 @@ module.exports = (robot) ->
             "Come on, seriously?"
             "That's really inappropriate."
           ]
+        console.log "Innuendo Probability for #{message} #{(probability * 100)/100}%"
   else
     console.error 'ERROR: You must define TWSS_ROOMS in your environment'
