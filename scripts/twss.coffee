@@ -30,8 +30,6 @@ module.exports = (robot) ->
       room = msg.envelope.room
       message = msg.match[1]
 
-      console.log room, twssRooms
-
       if (room).toString() in twssRooms and twss.is(message)
         probability = twss.probability(message)
 
