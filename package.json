@@ -23,7 +23,8 @@
     "htmlparser": "1.7.6",
     "soupselect": "0.2.0",
     "jsdom": "~0.2.15",
-    "underscore": "1.4.4"
+    "underscore": "1.4.4",
+    "twss": "0.1.6"
   },
 
   "engines": {
