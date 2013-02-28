@@ -32,7 +32,7 @@ module.exports = (robot) ->
 
       console.log room, twssRooms
 
-      if room in twssRooms and twss.is(message)
+      if (room).toString() in twssRooms and twss.is(message)
         probability = twss.probability(message)
 
         if probability < 0.98
