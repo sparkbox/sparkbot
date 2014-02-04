@@ -38,6 +38,8 @@ bufferProfile = (account, callback) ->
 buffer = (msg, account, text) ->
   bufferProfile account, (profile) ->
     if profile
+      user = msg.message.user.name
+      text = "#{text} ^#{user}"
       user.createUpdate(text, [profile.id], (err, response) ->
         if err
           msg.reply 'Buffer API Error. Post not buffered.'
