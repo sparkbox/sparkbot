@@ -1,5 +1,5 @@
 ["redis-brain.coffee", "shipit.coffee", "meme_generator.coffee",
   "google.coffee", "applause.coffee", "catfacts.coffee", "coin.coffee",
-  "facepalm.coffee", "wunderground.coffee", "moarcatsme.coffee",
-  "replygif.coffee", "animal.coffee", "ambush.coffee", "party_gifs.coffee",
-  "horse.coffee", "aww.coffee", "celery-man.coffee" ]
+  "facepalm.coffee", "moarcatsme.coffee", "replygif.coffee", "animal.coffee",
+  "ambush.coffee", "party_gifs.coffee", "horse.coffee", "aww.coffee",
+  "celery-man.coffee", "weather.coffee" ]
