@@ -25,7 +25,8 @@
     "jsdom": "~0.2.15",
     "underscore": "1.4.4",
     "twss": "0.1.6",
-    "hubot-slack": "~1.5.2"
+    "hubot-slack": "~1.5.2",
+    "cheerio": "~0.13.1"
   },
   "engines": {
     "node": ">= 0.8.x",
