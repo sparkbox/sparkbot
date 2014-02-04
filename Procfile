@@ -1,1 +1,1 @@
-web: bin/hubot -a campfire -n sparkbot --alias sbot
+web: bin/hubot --adapter slack -n sparkbot --alias sbot

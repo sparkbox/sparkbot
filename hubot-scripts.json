@@ -1,7 +1,5 @@
-["redis-brain.coffee", "tweet.coffee", "shipit.coffee", "abstract.coffee",
-  "meme_generator.coffee", "google.coffee", "hackernews.coffee",
-  "dribbble.coffee", "spot.coffee", "applause.coffee", "brewerydb.coffee",
-  "catfacts.coffee", "coin.coffee", "complete.coffee", "facepalm.coffee",
-  "wunderground.coffee", "moarcatsme.coffee", "replygif.coffee",
-  "animal.coffee", "ambush.coffee", "pizza.coffee", "party_gifs.coffee",
-  "horse.coffee", "http-info.coffee", "reddit-jokes.coffee", "aww.coffee"]
+["redis-brain.coffee", "shipit.coffee", "abstract.coffee",
+  "meme_generator.coffee", "google.coffee", "applause.coffee",
+  "catfacts.coffee", "coin.coffee", "facepalm.coffee", "wunderground.coffee",
+  "moarcatsme.coffee", "replygif.coffee", "animal.coffee", "ambush.coffee",
+  "party_gifs.coffee", "horse.coffee", "http-info.coffee", "aww.coffee"]
