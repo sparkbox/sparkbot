@@ -25,7 +25,7 @@
     "jsdom": "~0.2.15",
     "underscore": "1.4.4",
     "twss": "0.1.6",
-    "hubot-slack": "~1.5.2",
+    "hubot-slack": "~2.0.1",
     "cheerio": "~0.13.1",
     "lodash-node": "~2.4.1",
     "buffer-alpaca": "~0.1.0"
