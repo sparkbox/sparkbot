@@ -14,7 +14,7 @@
 {EOL} = require('os')
 ArrayMemory = require('../lib/array_memory')
 
-prefix = '(lunchandlearn|lunchnlearn|lnl|lunchlearn)'
+prefix = '(?:lunchandlearn|lunchnlearn|lnl|lunchlearn)'
 
 list_topics = (memory, res) ->
   if(memory.any())
@@ -31,7 +31,7 @@ module.exports = (robot) ->
 
 
   # Remember a lunch n learn topic
-  robot.respond (match_command("remember (.*)")), (res) ->
+  robot.respond match_command("remember (.*)"), (res) ->
     idea = res.match[1]
     memory.remember(idea)
     res.emote "Got it! I'll remember _#{idea}_ until you tell me to `forget` it."
@@ -41,7 +41,7 @@ module.exports = (robot) ->
     list_topics(memory,res)
 
   # Remove an item by number
-  robot.respond match_command("forget (\d+)"), (res) ->
+  robot.respond match_command("forget (\\d+)"), (res) ->
     numberToRemove = parseInt(res.match[1])
 
     if(numberToRemove == NaN)
