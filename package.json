@@ -10,7 +10,7 @@
     "hubot-diagnostics": "^1.0.0",
     "hubot-heroku-keepalive": "0.0.4",
     "hubot-help": "^1.0.1",
-    "hubot-redis-brain": "0.0.3",
+    "hubot-redis-brain": "^1.0.0",
     "hubot-slack": "^3.3.0",
     "lodash": "^3.10.1",
     "underscore": "^1.8.3"
