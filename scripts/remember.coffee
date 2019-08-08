@@ -12,7 +12,7 @@
 # Dependencies:
 #   "underscore": "*"
 
-_ = require('underscore')
+_ = require('lodash')
 
 module.exports = (robot) ->
   memoriesByRecollection = () -> robot.brain.data.memoriesByRecollection ?= {}
