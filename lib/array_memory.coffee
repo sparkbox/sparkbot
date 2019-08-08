@@ -25,7 +25,7 @@ class ArrayMemory
     @brain.get('lunchnlearn') || []
 
   any: ->
-    _.any(@ideas())
+    _.some(@ideas())
 
   toString: (joinWith = EOL)->
     @ideas()
