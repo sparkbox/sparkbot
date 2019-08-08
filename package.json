@@ -4,6 +4,9 @@
   "private": true,
   "author": "Ryan Cromwell <ryan@heysparkbox.com>",
   "description": "The real brains behind this operation.",
+  "scripts": {
+    "start": "node tasks/start.js"
+  },
   "dependencies": {
     "hubot": "^3.3.2",
     "hubot-answers": "^0.2.1",
