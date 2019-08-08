@@ -1,0 +1,27 @@
+{
+  "name": "sparkbot",
+  "scripts": {},
+  "env": {
+    "HUBOT_SLACK_TOKEN": {
+      "required": true
+    },
+    "REDIS_URL": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "heroku-redis",
+    "scheduler"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "stack": "heroku-18"
+}
