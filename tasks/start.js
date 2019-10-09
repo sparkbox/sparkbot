@@ -1,5 +1,3 @@
-const shell = require('shelljs');
-
 const { spawnSync }= require('child_process');
 const name = process.env.NAME || 'sparkbot';
 
