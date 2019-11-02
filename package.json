@@ -18,7 +18,7 @@
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.1",
     "hubot-slack": "^3.3.0",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.15",
     "underscore": "^1.8.3"
   },
   "engines": {
